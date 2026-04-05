@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ねりものリスト - 給食業務マニュアル</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  /* ねりものリスト専用のテーブルデザイン（鍋の青色テーマ） */
+  .nerimono-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+  }
+  .nerimono-table th {
+    background-color: #03A9F4; /* 鍋の青色 */
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .nerimono-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+    vertical-align: middle;
+  }
+  .nerimono-table tr:last-child td {
+    border-bottom: none;
+  }
+  /* 指示がある行の背景を薄い青色にして目立たせる */
+  .has-note {
+    background-color: #f4fafe;
+  }
+  .note-text {
+    font-weight: bold;
+    color: #0277bd; /* 備考テキストを濃い青色に */
+    display: block;
+    line-height: 1.5;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <a href="nabe.html" class="back-btn">← 鍋メニューに戻る</a>
+    
+    <h2>ねりものリスト</h2>
+    
+    <table class="nerimono-table">
+      <thead>
+        <tr>
+          <th style="width: 35%;">品名</th>
+          <th style="width: 65%;">処理・備考</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="has-note">
+          <td>油揚げ</td>
+          <td><span class="note-text">米ざるに入れて上から湯をかけて冷凍を解凍し、絞って入れ物に入れる</span></td>
+        </tr>
+        <tr>
+          <td>糸かまぼこ</td>
+          <td></td>
+        </tr>
+        <tr class="has-note">
+          <td>糸こんにゃく</td>
+          <td><span class="note-text">ザルに入れて渡す</span></td>
+        </tr>
+        <tr class="has-note">
+          <td>カットワカメ</td>
+          <td><span class="note-text">米ザルに入れて洗ったのちボールに入れる。水でひたす</span></td>
+        </tr>
+        <tr class="has-note">
+          <td>木綿豆腐</td>
+          <td><span class="note-text">豆腐を入れ物から出す。たらいに入れて渡す。</span></td>
+        </tr>
+        <tr>
+          <td>くり</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>クリームコーン</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>米ひじき</td>
+          <td></td>
+        </tr>
+        <tr class="has-note">
+          <td>こんにゃく</td>
+          <td><span class="note-text">ザルに入れて渡す</span></td>
+        </tr>
+        <tr>
+          <td>大豆の水煮</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>ちらしかまぼこ</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>手まり麩</td>
+          <td></td>
+        </tr>
+        <tr class="has-note">
+          <td>豆腐</td>
+          <td><span class="note-text">入れ物の上下を斬ってたらいへ入れる。立てに3か所切って半分ずつ重ねて横にする。縦横等分に切る</span></td>
+        </tr>
+        <tr>
+          <td>トック</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>なめこ</td>
+          <td></td>
+        </tr>
+	<tr class="has-note">
+          <td>なると</td>
+           <td><span class="note-text">袋を開封後、ある程度ほぐす。ボール内で水を少し入れて完全にほぐす。ほぐした後水切り</span></td>
+        <tr class="has-note">
+          <td>干し椎茸</td>
+           <td><span class="note-text">網で粉を切った後水に浸す</span></td>
