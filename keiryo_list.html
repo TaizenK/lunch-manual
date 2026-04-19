@@ -1,49 +1,70 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>調味料リスト（85種類） - 給食業務マニュアル</title>
-<link rel="stylesheet" href="style.css">
-<style>
-  @media print {
-    body { background-color: #fff; margin: 1cm; }
-    .back-btn { display: none !important; }
-    h2 { border: none; }
-  }
-  .seasoning-container {
-    column-count: 3;
-    column-gap: 30px;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  }
-  .item {
-    break-inside: avoid;
-    margin-bottom: 8px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #444;
-  }
-  .number {
-    display: inline-block;
-    width: 30px;
-    color: #4CAF50;
-  }
-  @media (max-width: 768px) {
-    .seasoning-container { column-count: 2; }
-  }
-  @media (max-width: 480px) {
-    .seasoning-container { column-count: 1; }
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>調味料リスト（85種類） - 給食業務マニュアル</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @media print {
+      body {
+        background-color: #fff;
+        margin: 1cm;
+      }
+
+      .back-btn {
+        display: none !important;
+      }
+
+      h2 {
+        border: none;
+      }
+    }
+
+    .seasoning-container {
+      column-count: 3;
+      column-gap: 30px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .item {
+      break-inside: avoid;
+      margin-bottom: 8px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    .number {
+      display: inline-block;
+      width: 30px;
+      color: #4CAF50;
+    }
+
+    @media (max-width: 768px) {
+      .seasoning-container {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .seasoning-container {
+        column-count: 1;
+      }
+    }
+  </style>
 </head>
+
 <body>
   <div class="container" style="max-width: 1000px;">
     <a href="shotoshori.html" class="back-btn">← 下処理メニューに戻る</a>
-    <h2 style="text-align: center; border-bottom: 3px solid #333; padding-bottom: 10px; margin-bottom: 30px;">調味料リスト（85種類）</h2>
-    
+    <h2 style="text-align: center; border-bottom: 3px solid #333; padding-bottom: 10px; margin-bottom: 30px;">
+      調味料リスト（85種類）</h2>
+
     <div class="seasoning-container">
       <div class="item"><span class="number">1.</span> あおのり</div>
       <div class="item"><span class="number">2.</span> アルファベットマカロニ</div>
@@ -61,6 +82,7 @@
       <div class="item"><span class="number">14.</span> カレー粉</div>
       <div class="item"><span class="number">15.</span> きざみ生姜</div>
       <div class="item"><span class="number">16.</span> きな粉</div>
+      <div class="item"><span class="number">17.</span> クリームコーン</div>
       <div class="item"><span class="number">17.</span> クルトン</div>
       <div class="item"><span class="number">18.</span> ケチャップ</div>
       <div class="item"><span class="number">19.</span> こいくちしょうゆ</div>
@@ -133,4 +155,5 @@
     </div>
   </div>
 </body>
+
 </html>
