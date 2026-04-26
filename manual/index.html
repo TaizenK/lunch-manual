@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>給食業務マニュアル</title>
+<style>
+  body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+  }
+  h2 {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .menu-list a {
+    display: block;
+    padding: 18px;
+    background: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-left: 8px solid #ccc;
+    transition: transform 0.1s;
+  }
+  .menu-list a:active {
+    transform: scale(0.98);
+  }
+  /* ポジションごとのテーマカラー */
+  .color-shotoshori { border-left-color: #4CAF50 !important; } /* 緑 */
+  .color-yaki { border-left-color: #FF9800 !important; } /* オレンジ */
+  .color-nabe { border-left-color: #03A9F4 !important; } /* 青 */
+  .color-gogo { border-left-color: #9C27B0 !important; } /* 紫 */
+  .color-sonota { border-left-color: #795548 !important; } /* 茶 */
+  
+  .back-btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>給食業務マニュアル</h1>
+    <ul class="menu-list">
+      <li><a href="shotoshori.html" class="color-shotoshori">下処理</a></li>
+      <li><a href="yaki.html" class="color-yaki">焼き</a></li>
+      <li><a href="nabe.html" class="color-nabe">鍋</a></li>
+      <li><a href="gogo.html" class="color-gogo">午後</a></li>
+      <li><a href="sonota.html" class="color-sonota">その他</a></li>
+    </ul>
+  </div>
+</body>
+</html>
